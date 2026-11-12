@@ -1,0 +1,19 @@
+{
+  "data_da_coleta": "2026-11-10",
+  "o_que_e": "anúncios ativos de um anunciante na biblioteca de anúncios da Meta, numa única data",
+  "paises": {
+    "BR": {
+      "anuncios": 93,
+      "total_informado_pela_busca": 93
+    },
+    "US": {
+      "anuncios": 1249,
+      "total_informado_pela_busca": 1249
+    }
+  },
+  "anuncios": 1342,
+  "grupos_de_criativo": 574,
+  "textos_distintos": 60,
+  "anuncios_com_classificacao_do_video": 646,
+  "limiar_do_agrupamento_de_videos": 38
+}

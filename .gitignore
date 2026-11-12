@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+
+# Ambiente (uv usa .venv; o uv.lock é versionado de propósito)
+.venv/
+
+# Dados originais da coleta: nunca entram no repositório (só o extrato anonimizado em data/)
+data/brutos/
+data/raw/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testes
+.pytest_cache/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Segredos
+.env
+.env.*
