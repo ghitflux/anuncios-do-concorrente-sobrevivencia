@@ -4891,6 +4891,2744 @@
           }
         }
       ]
-    }
+    },
+    "graficos_extras": [
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "A média de “dias no ar” erra a duração real para os dois lados",
+          "en": "Average “days running” misses the true lifetime in both directions",
+          "es": "El promedio de “días al aire” falla la duración real hacia ambos lados"
+        },
+        "eixo_x": {
+          "pt": "Cenário simulado",
+          "en": "Simulated scenario",
+          "es": "Escenario simulado"
+        },
+        "eixo_y": {
+          "pt": "Dias",
+          "en": "Days",
+          "es": "Días"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Leitura ingênua (média de dias no ar)",
+              "en": "Naive reading (mean days running)",
+              "es": "Lectura ingenua (promedio de días al aire)"
+            },
+            "papel": "base",
+            "pontos": [
+              [
+                "Duração fixa, ritmo constante",
+                10.54
+              ],
+              [
+                "Risco constante, ritmo constante",
+                19.96
+              ],
+              [
+                "Testes curtos e anúncios longos, ritmo constante",
+                64.8
+              ],
+              [
+                "Testes curtos e anúncios longos, ritmo dobrando",
+                19.16
+              ],
+              [
+                "Testes curtos e anúncios longos, lançamentos em lotes",
+                72.58
+              ],
+              [
+                "Testes curtos e anúncios longos, conta de 30 dias",
+                10.31
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Duração fixa, ritmo constante",
+                "Risco constante, ritmo constante",
+                "Testes curtos e anúncios longos, ritmo constante",
+                "Testes curtos e anúncios longos, ritmo dobrando",
+                "Testes curtos e anúncios longos, lançamentos em lotes",
+                "Testes curtos e anúncios longos, conta de 30 dias"
+              ],
+              "en": [
+                "Fixed lifetime, steady pace",
+                "Constant risk, steady pace",
+                "Short tests + long runners, steady pace",
+                "Short tests + long runners, pace doubling",
+                "Short tests + long runners, batch launches",
+                "Short tests + long runners, account opened 30 days ago"
+              ],
+              "es": [
+                "Duración fija, ritmo constante",
+                "Riesgo constante, ritmo constante",
+                "Pruebas cortas + anuncios largos, ritmo constante",
+                "Pruebas cortas + anuncios largos, ritmo que se duplica",
+                "Pruebas cortas + anuncios largos, lanzamientos en lotes",
+                "Pruebas cortas + anuncios largos, cuenta de 30 días"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Correção pela foto",
+              "en": "Snapshot correction",
+              "es": "Corrección por la foto"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Duração fixa, ritmo constante",
+                18.12
+              ],
+              [
+                "Risco constante, ritmo constante",
+                19.01
+              ],
+              [
+                "Testes curtos e anúncios longos, ritmo constante",
+                19.96
+              ],
+              [
+                "Testes curtos e anúncios longos, ritmo dobrando",
+                9.36
+              ],
+              [
+                "Testes curtos e anúncios longos, lançamentos em lotes",
+                46.18
+              ],
+              [
+                "Testes curtos e anúncios longos, conta de 30 dias",
+                8.96
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Duração fixa, ritmo constante",
+                "Risco constante, ritmo constante",
+                "Testes curtos e anúncios longos, ritmo constante",
+                "Testes curtos e anúncios longos, ritmo dobrando",
+                "Testes curtos e anúncios longos, lançamentos em lotes",
+                "Testes curtos e anúncios longos, conta de 30 dias"
+              ],
+              "en": [
+                "Fixed lifetime, steady pace",
+                "Constant risk, steady pace",
+                "Short tests + long runners, steady pace",
+                "Short tests + long runners, pace doubling",
+                "Short tests + long runners, batch launches",
+                "Short tests + long runners, account opened 30 days ago"
+              ],
+              "es": [
+                "Duración fija, ritmo constante",
+                "Riesgo constante, ritmo constante",
+                "Pruebas cortas + anuncios largos, ritmo constante",
+                "Pruebas cortas + anuncios largos, ritmo que se duplica",
+                "Pruebas cortas + anuncios largos, lanzamientos en lotes",
+                "Pruebas cortas + anuncios largos, cuenta de 30 días"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Duração média real",
+              "en": "True mean lifetime",
+              "es": "Duración media real"
+            },
+            "papel": "neutro",
+            "pontos": [
+              [
+                "Duração fixa, ritmo constante",
+                20.0
+              ],
+              [
+                "Risco constante, ritmo constante",
+                20.0
+              ],
+              [
+                "Testes curtos e anúncios longos, ritmo constante",
+                20.0
+              ],
+              [
+                "Testes curtos e anúncios longos, ritmo dobrando",
+                20.0
+              ],
+              [
+                "Testes curtos e anúncios longos, lançamentos em lotes",
+                20.0
+              ],
+              [
+                "Testes curtos e anúncios longos, conta de 30 dias",
+                20.0
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Duração fixa, ritmo constante",
+                "Risco constante, ritmo constante",
+                "Testes curtos e anúncios longos, ritmo constante",
+                "Testes curtos e anúncios longos, ritmo dobrando",
+                "Testes curtos e anúncios longos, lançamentos em lotes",
+                "Testes curtos e anúncios longos, conta de 30 dias"
+              ],
+              "en": [
+                "Fixed lifetime, steady pace",
+                "Constant risk, steady pace",
+                "Short tests + long runners, steady pace",
+                "Short tests + long runners, pace doubling",
+                "Short tests + long runners, batch launches",
+                "Short tests + long runners, account opened 30 days ago"
+              ],
+              "es": [
+                "Duración fija, ritmo constante",
+                "Riesgo constante, ritmo constante",
+                "Pruebas cortas + anuncios largos, ritmo constante",
+                "Pruebas cortas + anuncios largos, ritmo que se duplica",
+                "Pruebas cortas + anuncios largos, lanzamientos en lotes",
+                "Pruebas cortas + anuncios largos, cuenta de 30 días"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Em fotos simuladas de anúncios que duram 20 dias em média, a leitura ingênua erra de -47% a +224% com ritmo constante; a correção acerta nesse caso e erra quando o ritmo muda.",
+          "en": "In simulated snapshots of ads that last 20 days on average, the naive reading is off by -47% to +224% at a steady pace; the correction gets it right there and fails when the pace changes.",
+          "es": "En fotos simuladas de anuncios que duran 20 días en promedio, la lectura ingenua se equivoca entre -47% y +224% con ritmo constante; la corrección acierta en ese caso y falla cuando el ritmo cambia."
+        }
+      },
+      {
+        "tipo": "linhas",
+        "titulo": {
+          "pt": "Corrigida, a curva cai cedo; mas a faixa honesta cabe quase qualquer curva",
+          "en": "Corrected, the curve drops early, but the honest band fits almost any curve",
+          "es": "Corregida, la curva cae pronto, pero la banda honesta admite casi cualquier curva"
+        },
+        "eixo_x": {
+          "pt": "Dias no ar",
+          "en": "Days running",
+          "es": "Días al aire"
+        },
+        "eixo_y": {
+          "pt": "Anúncios que chegam a esse dia",
+          "en": "Ads that reach this day",
+          "es": "Anuncios que llegan a ese día"
+        },
+        "formato_x": "numero",
+        "formato_y": "percentual",
+        "series": [
+          {
+            "nome": {
+              "pt": "Correção, ritmo constante",
+              "en": "Correction, steady pace",
+              "es": "Corrección, ritmo constante"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                1,
+                1.0
+              ],
+              [
+                2,
+                1.0
+              ],
+              [
+                3,
+                0.6763
+              ],
+              [
+                4,
+                0.518
+              ],
+              [
+                5,
+                0.4181
+              ],
+              [
+                6,
+                0.4181
+              ],
+              [
+                7,
+                0.4181
+              ],
+              [
+                8,
+                0.4181
+              ],
+              [
+                9,
+                0.4181
+              ],
+              [
+                10,
+                0.4181
+              ],
+              [
+                11,
+                0.4181
+              ],
+              [
+                12,
+                0.4181
+              ],
+              [
+                13,
+                0.4181
+              ],
+              [
+                14,
+                0.4181
+              ],
+              [
+                15,
+                0.4181
+              ],
+              [
+                16,
+                0.4181
+              ],
+              [
+                17,
+                0.4181
+              ],
+              [
+                18,
+                0.4181
+              ],
+              [
+                19,
+                0.4181
+              ],
+              [
+                20,
+                0.4181
+              ],
+              [
+                21,
+                0.4181
+              ],
+              [
+                22,
+                0.4181
+              ],
+              [
+                23,
+                0.1607
+              ],
+              [
+                24,
+                0.1607
+              ],
+              [
+                25,
+                0.1607
+              ],
+              [
+                26,
+                0.1607
+              ],
+              [
+                27,
+                0.1607
+              ],
+              [
+                28,
+                0.1607
+              ],
+              [
+                29,
+                0.1607
+              ],
+              [
+                30,
+                0.1607
+              ],
+              [
+                31,
+                0.1607
+              ],
+              [
+                32,
+                0.1607
+              ],
+              [
+                33,
+                0.1607
+              ],
+              [
+                34,
+                0.1607
+              ],
+              [
+                35,
+                0.1607
+              ],
+              [
+                36,
+                0.1607
+              ],
+              [
+                37,
+                0.1607
+              ],
+              [
+                38,
+                0.1607
+              ],
+              [
+                39,
+                0.1607
+              ],
+              [
+                40,
+                0.1607
+              ],
+              [
+                41,
+                0.1607
+              ],
+              [
+                42,
+                0.1607
+              ],
+              [
+                43,
+                0.1607
+              ],
+              [
+                44,
+                0.1607
+              ],
+              [
+                45,
+                0.1607
+              ],
+              [
+                46,
+                0.1607
+              ],
+              [
+                47,
+                0.1607
+              ],
+              [
+                48,
+                0.1607
+              ],
+              [
+                49,
+                0.1607
+              ],
+              [
+                50,
+                0.1607
+              ],
+              [
+                51,
+                0.1607
+              ],
+              [
+                52,
+                0.1607
+              ],
+              [
+                53,
+                0.1607
+              ],
+              [
+                54,
+                0.1607
+              ],
+              [
+                55,
+                0.1607
+              ],
+              [
+                56,
+                0.1607
+              ],
+              [
+                57,
+                0.1607
+              ],
+              [
+                58,
+                0.1583
+              ],
+              [
+                59,
+                0.1583
+              ],
+              [
+                60,
+                0.1583
+              ],
+              [
+                61,
+                0.1583
+              ],
+              [
+                62,
+                0.1583
+              ],
+              [
+                63,
+                0.1583
+              ],
+              [
+                64,
+                0.1151
+              ],
+              [
+                65,
+                0.1151
+              ],
+              [
+                66,
+                0.1151
+              ],
+              [
+                67,
+                0.1151
+              ],
+              [
+                68,
+                0.1151
+              ],
+              [
+                69,
+                0.0126
+              ],
+              [
+                70,
+                0.0126
+              ],
+              [
+                71,
+                0.0126
+              ],
+              [
+                72,
+                0.0126
+              ],
+              [
+                73,
+                0.0126
+              ],
+              [
+                74,
+                0.0126
+              ],
+              [
+                75,
+                0.0126
+              ],
+              [
+                76,
+                0.0126
+              ]
+            ]
+          },
+          {
+            "nome": {
+              "pt": "Leitura ingênua",
+              "en": "Naive reading",
+              "es": "Lectura ingenua"
+            },
+            "papel": "base",
+            "pontos": [
+              [
+                1,
+                1.0
+              ],
+              [
+                2,
+                0.9584
+              ],
+              [
+                3,
+                0.8887
+              ],
+              [
+                4,
+                0.8511
+              ],
+              [
+                5,
+                0.8223
+              ],
+              [
+                6,
+                0.8167
+              ],
+              [
+                7,
+                0.811
+              ],
+              [
+                8,
+                0.7726
+              ],
+              [
+                9,
+                0.7614
+              ],
+              [
+                10,
+                0.7278
+              ],
+              [
+                11,
+                0.7278
+              ],
+              [
+                12,
+                0.7278
+              ],
+              [
+                13,
+                0.7254
+              ],
+              [
+                14,
+                0.6637
+              ],
+              [
+                15,
+                0.6629
+              ],
+              [
+                16,
+                0.6629
+              ],
+              [
+                17,
+                0.6581
+              ],
+              [
+                18,
+                0.6573
+              ],
+              [
+                19,
+                0.6565
+              ],
+              [
+                20,
+                0.5364
+              ],
+              [
+                21,
+                0.5356
+              ],
+              [
+                22,
+                0.5036
+              ],
+              [
+                23,
+                0.4035
+              ],
+              [
+                24,
+                0.4035
+              ],
+              [
+                25,
+                0.4019
+              ],
+              [
+                26,
+                0.3899
+              ],
+              [
+                27,
+                0.3899
+              ],
+              [
+                28,
+                0.3899
+              ],
+              [
+                29,
+                0.3899
+              ],
+              [
+                30,
+                0.3859
+              ],
+              [
+                31,
+                0.3859
+              ],
+              [
+                32,
+                0.3859
+              ],
+              [
+                33,
+                0.3859
+              ],
+              [
+                34,
+                0.3699
+              ],
+              [
+                35,
+                0.3563
+              ],
+              [
+                36,
+                0.3459
+              ],
+              [
+                37,
+                0.3459
+              ],
+              [
+                38,
+                0.3459
+              ],
+              [
+                39,
+                0.3459
+              ],
+              [
+                40,
+                0.3459
+              ],
+              [
+                41,
+                0.3395
+              ],
+              [
+                42,
+                0.2778
+              ],
+              [
+                43,
+                0.277
+              ],
+              [
+                44,
+                0.277
+              ],
+              [
+                45,
+                0.273
+              ],
+              [
+                46,
+                0.2682
+              ],
+              [
+                47,
+                0.2642
+              ],
+              [
+                48,
+                0.2258
+              ],
+              [
+                49,
+                0.2258
+              ],
+              [
+                50,
+                0.2242
+              ],
+              [
+                51,
+                0.213
+              ],
+              [
+                52,
+                0.205
+              ],
+              [
+                53,
+                0.205
+              ],
+              [
+                54,
+                0.2034
+              ],
+              [
+                55,
+                0.2026
+              ],
+              [
+                56,
+                0.1906
+              ],
+              [
+                57,
+                0.1049
+              ],
+              [
+                58,
+                0.0905
+              ],
+              [
+                59,
+                0.0873
+              ],
+              [
+                60,
+                0.0873
+              ],
+              [
+                61,
+                0.0873
+              ],
+              [
+                62,
+                0.0857
+              ],
+              [
+                63,
+                0.0657
+              ],
+              [
+                64,
+                0.0376
+              ],
+              [
+                65,
+                0.0376
+              ],
+              [
+                66,
+                0.0376
+              ],
+              [
+                67,
+                0.0376
+              ],
+              [
+                68,
+                0.028
+              ],
+              [
+                69,
+                0.0056
+              ],
+              [
+                70,
+                0.0056
+              ],
+              [
+                71,
+                0.0056
+              ],
+              [
+                72,
+                0.0056
+              ],
+              [
+                73,
+                0.0056
+              ],
+              [
+                74,
+                0.0056
+              ],
+              [
+                75,
+                0.0056
+              ],
+              [
+                76,
+                0.0016
+              ]
+            ]
+          },
+          {
+            "nome": {
+              "pt": "Correção, se o ritmo dobrou",
+              "en": "Correction, if the pace doubled",
+              "es": "Corrección, si el ritmo se duplicó"
+            },
+            "papel": "alternativa",
+            "pontos": [
+              [
+                1,
+                1.0
+              ],
+              [
+                2,
+                1.0
+              ],
+              [
+                3,
+                0.6857
+              ],
+              [
+                4,
+                0.5301
+              ],
+              [
+                5,
+                0.4666
+              ],
+              [
+                6,
+                0.4666
+              ],
+              [
+                7,
+                0.4666
+              ],
+              [
+                8,
+                0.4666
+              ],
+              [
+                9,
+                0.4666
+              ],
+              [
+                10,
+                0.4666
+              ],
+              [
+                11,
+                0.4666
+              ],
+              [
+                12,
+                0.4666
+              ],
+              [
+                13,
+                0.4666
+              ],
+              [
+                14,
+                0.4666
+              ],
+              [
+                15,
+                0.4666
+              ],
+              [
+                16,
+                0.4666
+              ],
+              [
+                17,
+                0.4666
+              ],
+              [
+                18,
+                0.4666
+              ],
+              [
+                19,
+                0.4666
+              ],
+              [
+                20,
+                0.4666
+              ],
+              [
+                21,
+                0.4666
+              ],
+              [
+                22,
+                0.4666
+              ],
+              [
+                23,
+                0.234
+              ],
+              [
+                24,
+                0.234
+              ],
+              [
+                25,
+                0.234
+              ],
+              [
+                26,
+                0.234
+              ],
+              [
+                27,
+                0.234
+              ],
+              [
+                28,
+                0.234
+              ],
+              [
+                29,
+                0.234
+              ],
+              [
+                30,
+                0.234
+              ],
+              [
+                31,
+                0.234
+              ],
+              [
+                32,
+                0.234
+              ],
+              [
+                33,
+                0.234
+              ],
+              [
+                34,
+                0.234
+              ],
+              [
+                35,
+                0.234
+              ],
+              [
+                36,
+                0.234
+              ],
+              [
+                37,
+                0.234
+              ],
+              [
+                38,
+                0.234
+              ],
+              [
+                39,
+                0.234
+              ],
+              [
+                40,
+                0.234
+              ],
+              [
+                41,
+                0.234
+              ],
+              [
+                42,
+                0.234
+              ],
+              [
+                43,
+                0.234
+              ],
+              [
+                44,
+                0.234
+              ],
+              [
+                45,
+                0.234
+              ],
+              [
+                46,
+                0.234
+              ],
+              [
+                47,
+                0.234
+              ],
+              [
+                48,
+                0.234
+              ],
+              [
+                49,
+                0.234
+              ],
+              [
+                50,
+                0.234
+              ],
+              [
+                51,
+                0.234
+              ],
+              [
+                52,
+                0.234
+              ],
+              [
+                53,
+                0.234
+              ],
+              [
+                54,
+                0.234
+              ],
+              [
+                55,
+                0.234
+              ],
+              [
+                56,
+                0.234
+              ],
+              [
+                57,
+                0.234
+              ],
+              [
+                58,
+                0.234
+              ],
+              [
+                59,
+                0.234
+              ],
+              [
+                60,
+                0.234
+              ],
+              [
+                61,
+                0.234
+              ],
+              [
+                62,
+                0.234
+              ],
+              [
+                63,
+                0.234
+              ],
+              [
+                64,
+                0.2089
+              ],
+              [
+                65,
+                0.2089
+              ],
+              [
+                66,
+                0.2089
+              ],
+              [
+                67,
+                0.2089
+              ],
+              [
+                68,
+                0.2089
+              ],
+              [
+                69,
+                0.0243
+              ],
+              [
+                70,
+                0.0243
+              ],
+              [
+                71,
+                0.0243
+              ],
+              [
+                72,
+                0.0243
+              ],
+              [
+                73,
+                0.0243
+              ],
+              [
+                74,
+                0.0243
+              ],
+              [
+                75,
+                0.0243
+              ],
+              [
+                76,
+                0.0243
+              ]
+            ]
+          }
+        ],
+        "faixa": {
+          "serie": 0,
+          "inferior": [
+            [
+              1,
+              1.0
+            ],
+            [
+              2,
+              0.2307
+            ],
+            [
+              3,
+              0.1615
+            ],
+            [
+              4,
+              0.1385
+            ],
+            [
+              5,
+              0.1267
+            ],
+            [
+              6,
+              0.1243
+            ],
+            [
+              7,
+              0.1228
+            ],
+            [
+              8,
+              0.1166
+            ],
+            [
+              9,
+              0.1076
+            ],
+            [
+              10,
+              0.0908
+            ],
+            [
+              11,
+              0.0908
+            ],
+            [
+              12,
+              0.0908
+            ],
+            [
+              13,
+              0.0908
+            ],
+            [
+              14,
+              0.0774
+            ],
+            [
+              15,
+              0.0774
+            ],
+            [
+              16,
+              0.0774
+            ],
+            [
+              17,
+              0.0774
+            ],
+            [
+              18,
+              0.0774
+            ],
+            [
+              19,
+              0.0774
+            ],
+            [
+              20,
+              0.063
+            ],
+            [
+              21,
+              0.063
+            ],
+            [
+              22,
+              0.056
+            ],
+            [
+              23,
+              0.0493
+            ],
+            [
+              24,
+              0.0493
+            ],
+            [
+              25,
+              0.0493
+            ],
+            [
+              26,
+              0.0484
+            ],
+            [
+              27,
+              0.0484
+            ],
+            [
+              28,
+              0.0484
+            ],
+            [
+              29,
+              0.0484
+            ],
+            [
+              30,
+              0.0484
+            ],
+            [
+              31,
+              0.0484
+            ],
+            [
+              32,
+              0.0484
+            ],
+            [
+              33,
+              0.0484
+            ],
+            [
+              34,
+              0.0484
+            ],
+            [
+              35,
+              0.0481
+            ],
+            [
+              36,
+              0.047
+            ],
+            [
+              37,
+              0.047
+            ],
+            [
+              38,
+              0.047
+            ],
+            [
+              39,
+              0.047
+            ],
+            [
+              40,
+              0.047
+            ],
+            [
+              41,
+              0.047
+            ],
+            [
+              42,
+              0.0458
+            ],
+            [
+              43,
+              0.0458
+            ],
+            [
+              44,
+              0.0458
+            ],
+            [
+              45,
+              0.0458
+            ],
+            [
+              46,
+              0.0458
+            ],
+            [
+              47,
+              0.0458
+            ],
+            [
+              48,
+              0.0404
+            ],
+            [
+              49,
+              0.0404
+            ],
+            [
+              50,
+              0.0404
+            ],
+            [
+              51,
+              0.0393
+            ],
+            [
+              52,
+              0.0345
+            ],
+            [
+              53,
+              0.0345
+            ],
+            [
+              54,
+              0.0345
+            ],
+            [
+              55,
+              0.0343
+            ],
+            [
+              56,
+              0.0333
+            ],
+            [
+              57,
+              0.0302
+            ],
+            [
+              58,
+              0.0267
+            ],
+            [
+              59,
+              0.0221
+            ],
+            [
+              60,
+              0.0221
+            ],
+            [
+              61,
+              0.0221
+            ],
+            [
+              62,
+              0.021
+            ],
+            [
+              63,
+              0.0067
+            ],
+            [
+              64,
+              0.0022
+            ],
+            [
+              65,
+              0.0022
+            ],
+            [
+              66,
+              0.0022
+            ],
+            [
+              67,
+              0.0022
+            ],
+            [
+              68,
+              0.0
+            ],
+            [
+              69,
+              0.0
+            ],
+            [
+              70,
+              0.0
+            ],
+            [
+              71,
+              0.0
+            ],
+            [
+              72,
+              0.0
+            ],
+            [
+              73,
+              0.0
+            ],
+            [
+              74,
+              0.0
+            ],
+            [
+              75,
+              0.0
+            ],
+            [
+              76,
+              0.0
+            ]
+          ],
+          "superior": [
+            [
+              1,
+              1.0
+            ],
+            [
+              2,
+              1.0
+            ],
+            [
+              3,
+              1.0
+            ],
+            [
+              4,
+              1.0
+            ],
+            [
+              5,
+              1.0
+            ],
+            [
+              6,
+              1.0
+            ],
+            [
+              7,
+              1.0
+            ],
+            [
+              8,
+              1.0
+            ],
+            [
+              9,
+              1.0
+            ],
+            [
+              10,
+              1.0
+            ],
+            [
+              11,
+              1.0
+            ],
+            [
+              12,
+              1.0
+            ],
+            [
+              13,
+              1.0
+            ],
+            [
+              14,
+              1.0
+            ],
+            [
+              15,
+              1.0
+            ],
+            [
+              16,
+              1.0
+            ],
+            [
+              17,
+              1.0
+            ],
+            [
+              18,
+              1.0
+            ],
+            [
+              19,
+              1.0
+            ],
+            [
+              20,
+              1.0
+            ],
+            [
+              21,
+              1.0
+            ],
+            [
+              22,
+              1.0
+            ],
+            [
+              23,
+              0.6356
+            ],
+            [
+              24,
+              0.6356
+            ],
+            [
+              25,
+              0.6356
+            ],
+            [
+              26,
+              0.6356
+            ],
+            [
+              27,
+              0.6356
+            ],
+            [
+              28,
+              0.6356
+            ],
+            [
+              29,
+              0.6356
+            ],
+            [
+              30,
+              0.6356
+            ],
+            [
+              31,
+              0.6356
+            ],
+            [
+              32,
+              0.6356
+            ],
+            [
+              33,
+              0.6356
+            ],
+            [
+              34,
+              0.6356
+            ],
+            [
+              35,
+              0.6356
+            ],
+            [
+              36,
+              0.6356
+            ],
+            [
+              37,
+              0.6356
+            ],
+            [
+              38,
+              0.6356
+            ],
+            [
+              39,
+              0.6356
+            ],
+            [
+              40,
+              0.6356
+            ],
+            [
+              41,
+              0.6356
+            ],
+            [
+              42,
+              0.6173
+            ],
+            [
+              43,
+              0.6173
+            ],
+            [
+              44,
+              0.6173
+            ],
+            [
+              45,
+              0.6173
+            ],
+            [
+              46,
+              0.6173
+            ],
+            [
+              47,
+              0.6173
+            ],
+            [
+              48,
+              0.5717
+            ],
+            [
+              49,
+              0.5717
+            ],
+            [
+              50,
+              0.5717
+            ],
+            [
+              51,
+              0.5717
+            ],
+            [
+              52,
+              0.5717
+            ],
+            [
+              53,
+              0.5717
+            ],
+            [
+              54,
+              0.5717
+            ],
+            [
+              55,
+              0.5717
+            ],
+            [
+              56,
+              0.5717
+            ],
+            [
+              57,
+              0.496
+            ],
+            [
+              58,
+              0.4282
+            ],
+            [
+              59,
+              0.4282
+            ],
+            [
+              60,
+              0.4282
+            ],
+            [
+              61,
+              0.4282
+            ],
+            [
+              62,
+              0.4282
+            ],
+            [
+              63,
+              0.4049
+            ],
+            [
+              64,
+              0.2829
+            ],
+            [
+              65,
+              0.2829
+            ],
+            [
+              66,
+              0.2829
+            ],
+            [
+              67,
+              0.2829
+            ],
+            [
+              68,
+              0.2786
+            ],
+            [
+              69,
+              0.0498
+            ],
+            [
+              70,
+              0.0498
+            ],
+            [
+              71,
+              0.0498
+            ],
+            [
+              72,
+              0.0498
+            ],
+            [
+              73,
+              0.0498
+            ],
+            [
+              74,
+              0.0498
+            ],
+            [
+              75,
+              0.0498
+            ],
+            [
+              76,
+              0.0469
+            ]
+          ]
+        },
+        "leitura": {
+          "pt": "Com ritmo de lançamento constante, 58% dos anúncios do concorrente nos EUA sairiam do ar na primeira semana; a faixa de 95%, sorteando lotes, mostra que a foto não fixa a curva.",
+          "en": "At a steady launch pace, 58% of the competitor's US ads would be pulled within the first week; the 95% band, resampling launch batches, shows the snapshot does not pin the curve down.",
+          "es": "Con un ritmo de lanzamiento constante, el 58% de los anuncios del competidor en EE. UU. saldría del aire en la primera semana; la banda del 95%, remuestreando lotes, muestra que la foto no fija la curva."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Tratar cada anúncio como independente estreita o intervalo em 7 vezes",
+          "en": "Treating every ad as independent makes the interval 7 times too narrow",
+          "es": "Tratar cada anuncio como independiente estrecha el intervalo 7 veces"
+        },
+        "eixo_x": {
+          "pt": "O que o bootstrap sorteia",
+          "en": "What the bootstrap resamples",
+          "es": "Lo que remuestrea el bootstrap"
+        },
+        "eixo_y": {
+          "pt": "Largura do intervalo de 95% (dias)",
+          "en": "Width of the 95% interval (days)",
+          "es": "Ancho del intervalo del 95% (días)"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Leitura ingênua",
+              "en": "Naive reading",
+              "es": "Lectura ingenua"
+            },
+            "papel": "base",
+            "pontos": [
+              [
+                "Anúncios soltos",
+                2.36
+              ],
+              [
+                "Grupos de criativo",
+                7.59
+              ],
+              [
+                "Lotes de lançamento",
+                17.52
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Anúncios soltos",
+                "Grupos de criativo",
+                "Lotes de lançamento"
+              ],
+              "en": [
+                "Single ads",
+                "Creative groups",
+                "Launch batches"
+              ],
+              "es": [
+                "Anuncios sueltos",
+                "Grupos de creatividad",
+                "Lotes de lanzamiento"
+              ]
+            }
+          },
+          {
+            "nome": {
+              "pt": "Correção (ritmo constante)",
+              "en": "Correction (steady pace)",
+              "es": "Corrección (ritmo constante)"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Anúncios soltos",
+                5.93
+              ],
+              [
+                "Grupos de criativo",
+                15.53
+              ],
+              [
+                "Lotes de lançamento",
+                36.4
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Anúncios soltos",
+                "Grupos de criativo",
+                "Lotes de lançamento"
+              ],
+              "en": [
+                "Single ads",
+                "Creative groups",
+                "Launch batches"
+              ],
+              "es": [
+                "Anuncios sueltos",
+                "Grupos de creatividad",
+                "Lotes de lanzamiento"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "O mesmo cálculo, nos EUA, com intervalos de 95% conforme o que é sorteado: de 26,4 a 28,7 dias sorteando anúncios, de 19,8 a 37,3 sorteando lotes.",
+          "en": "The same estimate for the US, with 95% intervals by what is resampled: 26.4 to 28.7 days resampling ads, 19.8 to 37.3 resampling batches.",
+          "es": "El mismo cálculo, en EE. UU., con intervalos del 95% según lo que se sortea: de 26,4 a 28,7 días sorteando anuncios, de 19,8 a 37,3 sorteando lotes."
+        }
+      },
+      {
+        "tipo": "barras",
+        "titulo": {
+          "pt": "Quase todo atributo “anda junto” com a idade; só 1 resiste quando a unidade é o lote",
+          "en": "Almost every attribute “moves with” ad age; only 1 survives at the batch level",
+          "es": "Casi todo atributo “va de la mano” con la edad; solo 1 resiste por lote"
+        },
+        "eixo_x": {
+          "pt": "Atributo do anúncio",
+          "en": "Ad attribute",
+          "es": "Atributo del anuncio"
+        },
+        "eixo_y": {
+          "pt": "Diferença de idade média (dias)",
+          "en": "Difference in mean age (days)",
+          "es": "Diferencia de edad media (días)"
+        },
+        "formato_x": "numero",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Com o atributo − sem o atributo",
+              "en": "With the attribute − without it",
+              "es": "Con el atributo − sin él"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "Veicula em 5 ou mais plataformas",
+                22.74
+              ],
+              [
+                "Urgência (tempo limitado)",
+                22.17
+              ],
+              [
+                "Formato: vídeo único (não dinâmico)",
+                17.92
+              ],
+              [
+                "Prova social no texto ou título",
+                14.59
+              ],
+              [
+                "Gancho: nicho (fé, country, amizade)",
+                13.45
+              ],
+              [
+                "Tem pergunta",
+                9.24
+              ],
+              [
+                "Cena de reação (vs. outras cenas)",
+                6.43
+              ],
+              [
+                "Gancho: ocasião ou data",
+                5.67
+              ],
+              [
+                "Gancho: reação emocionada",
+                4.1
+              ],
+              [
+                "Mais emojis que a mediana",
+                1.49
+              ],
+              [
+                "Gancho: prova social",
+                -0.08
+              ],
+              [
+                "Tem 2 ou mais variações",
+                -3.94
+              ],
+              [
+                "Cita ocasião ou data",
+                -4.42
+              ],
+              [
+                "Vídeo mais longo que a mediana",
+                -5.32
+              ],
+              [
+                "Texto mais longo que a mediana",
+                -9.55
+              ],
+              [
+                "Texto em espanhol (vs. inglês)",
+                -14.83
+              ],
+              [
+                "Promete prévia grátis",
+                -15.96
+              ],
+              [
+                "Gancho: troca de presente",
+                -20.6
+              ],
+              [
+                "Gancho: promessa ou curiosidade",
+                -22.01
+              ],
+              [
+                "Vídeo gerado por IA (vs. real)",
+                -23.99
+              ]
+            ],
+            "rotulos": {
+              "pt": [
+                "Veicula em 5 ou mais plataformas",
+                "Urgência (tempo limitado)",
+                "Formato: vídeo único (não dinâmico)",
+                "Prova social no texto ou título",
+                "Gancho: nicho (fé, country, amizade)",
+                "Tem pergunta",
+                "Cena de reação (vs. outras cenas)",
+                "Gancho: ocasião ou data",
+                "Gancho: reação emocionada",
+                "Mais emojis que a mediana",
+                "Gancho: prova social",
+                "Tem 2 ou mais variações",
+                "Cita ocasião ou data",
+                "Vídeo mais longo que a mediana",
+                "Texto mais longo que a mediana",
+                "Texto em espanhol (vs. inglês)",
+                "Promete prévia grátis",
+                "Gancho: troca de presente",
+                "Gancho: promessa ou curiosidade",
+                "Vídeo gerado por IA (vs. real)"
+              ],
+              "en": [
+                "Runs on 5+ placements",
+                "Urgency (limited time)",
+                "Single video (not dynamic)",
+                "Social proof in copy or headline",
+                "Hook: niche (faith, country, friendship)",
+                "Asks a question",
+                "Reaction scene (vs. others)",
+                "Hook: occasion or date",
+                "Hook: emotional reaction",
+                "More emojis than median",
+                "Hook: social proof",
+                "2+ variations",
+                "Mentions an occasion or date",
+                "Video longer than median",
+                "Copy longer than median",
+                "Copy in Spanish (vs. English)",
+                "Promises a free preview",
+                "Hook: swap the usual gift",
+                "Hook: promise or curiosity",
+                "AI-generated video (vs. real)"
+              ],
+              "es": [
+                "Se publica en 5 o más plataformas",
+                "Urgencia (tiempo limitado)",
+                "Video único (no dinámico)",
+                "Prueba social en texto o título",
+                "Gancho: nicho (fe, country, amistad)",
+                "Hace una pregunta",
+                "Escena de reacción (vs. otras)",
+                "Gancho: ocasión o fecha",
+                "Gancho: reacción emocionada",
+                "Más emojis que la mediana",
+                "Gancho: prueba social",
+                "2 o más variaciones",
+                "Menciona ocasión o fecha",
+                "Video más largo que la mediana",
+                "Texto más largo que la mediana",
+                "Texto en español (vs. inglés)",
+                "Promete una muestra gratis",
+                "Gancho: cambiar el regalo de siempre",
+                "Gancho: promesa o curiosidad",
+                "Video generado por IA (vs. real)"
+              ]
+            }
+          }
+        ],
+        "leitura": {
+          "pt": "Diferença de idade média na foto entre anúncios com e sem cada atributo, nos EUA. Pela permutação por anúncio quase todos são significativos; embaralhando lotes inteiros, 1 de 20 passa.",
+          "en": "Difference in snapshot age between US ads with and without each attribute. Under ad-level permutation almost all are significant; shuffling whole launch batches, 1 of 20 passes.",
+          "es": "Diferencia de edad en la foto entre anuncios con y sin cada atributo, en EE. UU. Con permutación por anuncio casi todos son significativos; barajando lotes enteros, pasa 1 de 20."
+        }
+      },
+      {
+        "tipo": "linhas",
+        "titulo": {
+          "pt": "Os anúncios sobem em lotes: três datas concentram 31% do que está no ar",
+          "en": "Ads launch in batches: three dates hold 31% of what is running",
+          "es": "Los anuncios salen en lotes: tres fechas concentran el 31% de lo que está al aire"
+        },
+        "eixo_x": {
+          "pt": "Data de início do anúncio",
+          "en": "Ad start date",
+          "es": "Fecha de inicio del anuncio"
+        },
+        "eixo_y": {
+          "pt": "Anúncios ainda no ar",
+          "en": "Ads still running",
+          "es": "Anuncios todavía al aire"
+        },
+        "formato_x": "data",
+        "formato_y": "numero",
+        "series": [
+          {
+            "nome": {
+              "pt": "Anúncios ainda no ar, por data de início",
+              "en": "Ads still running, by start date",
+              "es": "Anuncios al aire, por fecha de inicio"
+            },
+            "papel": "neutro",
+            "pontos": [
+              [
+                "2026-08-27",
+                2
+              ],
+              [
+                "2026-08-28",
+                5
+              ],
+              [
+                "2026-08-29",
+                0
+              ],
+              [
+                "2026-08-30",
+                0
+              ],
+              [
+                "2026-08-31",
+                0
+              ],
+              [
+                "2026-09-01",
+                0
+              ],
+              [
+                "2026-09-02",
+                0
+              ],
+              [
+                "2026-09-03",
+                0
+              ],
+              [
+                "2026-09-04",
+                28
+              ],
+              [
+                "2026-09-05",
+                12
+              ],
+              [
+                "2026-09-06",
+                0
+              ],
+              [
+                "2026-09-07",
+                0
+              ],
+              [
+                "2026-09-08",
+                0
+              ],
+              [
+                "2026-09-09",
+                35
+              ],
+              [
+                "2026-09-10",
+                25
+              ],
+              [
+                "2026-09-11",
+                2
+              ],
+              [
+                "2026-09-12",
+                0
+              ],
+              [
+                "2026-09-13",
+                0
+              ],
+              [
+                "2026-09-14",
+                4
+              ],
+              [
+                "2026-09-15",
+                18
+              ],
+              [
+                "2026-09-16",
+                107
+              ],
+              [
+                "2026-09-17",
+                15
+              ],
+              [
+                "2026-09-18",
+                1
+              ],
+              [
+                "2026-09-19",
+                2
+              ],
+              [
+                "2026-09-20",
+                0
+              ],
+              [
+                "2026-09-21",
+                10
+              ],
+              [
+                "2026-09-22",
+                14
+              ],
+              [
+                "2026-09-23",
+                2
+              ],
+              [
+                "2026-09-24",
+                0
+              ],
+              [
+                "2026-09-25",
+                48
+              ],
+              [
+                "2026-09-26",
+                5
+              ],
+              [
+                "2026-09-27",
+                6
+              ],
+              [
+                "2026-09-28",
+                5
+              ],
+              [
+                "2026-09-29",
+                0
+              ],
+              [
+                "2026-09-30",
+                1
+              ],
+              [
+                "2026-10-01",
+                77
+              ],
+              [
+                "2026-10-02",
+                8
+              ],
+              [
+                "2026-10-03",
+                0
+              ],
+              [
+                "2026-10-04",
+                0
+              ],
+              [
+                "2026-10-05",
+                0
+              ],
+              [
+                "2026-10-06",
+                0
+              ],
+              [
+                "2026-10-07",
+                13
+              ],
+              [
+                "2026-10-08",
+                17
+              ],
+              [
+                "2026-10-09",
+                20
+              ],
+              [
+                "2026-10-10",
+                0
+              ],
+              [
+                "2026-10-11",
+                0
+              ],
+              [
+                "2026-10-12",
+                0
+              ],
+              [
+                "2026-10-13",
+                5
+              ],
+              [
+                "2026-10-14",
+                0
+              ],
+              [
+                "2026-10-15",
+                0
+              ],
+              [
+                "2026-10-16",
+                0
+              ],
+              [
+                "2026-10-17",
+                15
+              ],
+              [
+                "2026-10-18",
+                2
+              ],
+              [
+                "2026-10-19",
+                0
+              ],
+              [
+                "2026-10-20",
+                125
+              ],
+              [
+                "2026-10-21",
+                40
+              ],
+              [
+                "2026-10-22",
+                1
+              ],
+              [
+                "2026-10-23",
+                150
+              ],
+              [
+                "2026-10-24",
+                1
+              ],
+              [
+                "2026-10-25",
+                1
+              ],
+              [
+                "2026-10-26",
+                6
+              ],
+              [
+                "2026-10-27",
+                0
+              ],
+              [
+                "2026-10-28",
+                1
+              ],
+              [
+                "2026-10-29",
+                77
+              ],
+              [
+                "2026-10-30",
+                3
+              ],
+              [
+                "2026-10-31",
+                0
+              ],
+              [
+                "2026-11-01",
+                0
+              ],
+              [
+                "2026-11-02",
+                42
+              ],
+              [
+                "2026-11-03",
+                14
+              ],
+              [
+                "2026-11-04",
+                48
+              ],
+              [
+                "2026-11-05",
+                7
+              ],
+              [
+                "2026-11-06",
+                7
+              ],
+              [
+                "2026-11-07",
+                36
+              ],
+              [
+                "2026-11-08",
+                47
+              ],
+              [
+                "2026-11-09",
+                87
+              ],
+              [
+                "2026-11-10",
+                52
+              ]
+            ]
+          },
+          {
+            "nome": {
+              "pt": "O que o ritmo constante permitiria",
+              "en": "What a steady pace would allow",
+              "es": "Lo que permitiría un ritmo constante"
+            },
+            "papel": "principal",
+            "pontos": [
+              [
+                "2026-08-27",
+                0.88
+              ],
+              [
+                "2026-08-28",
+                0.88
+              ],
+              [
+                "2026-08-29",
+                0.88
+              ],
+              [
+                "2026-08-30",
+                0.88
+              ],
+              [
+                "2026-08-31",
+                0.88
+              ],
+              [
+                "2026-09-01",
+                0.88
+              ],
+              [
+                "2026-09-02",
+                0.88
+              ],
+              [
+                "2026-09-03",
+                0.88
+              ],
+              [
+                "2026-09-04",
+                8.0
+              ],
+              [
+                "2026-09-05",
+                8.0
+              ],
+              [
+                "2026-09-06",
+                8.0
+              ],
+              [
+                "2026-09-07",
+                8.0
+              ],
+              [
+                "2026-09-08",
+                8.0
+              ],
+              [
+                "2026-09-09",
+                11.0
+              ],
+              [
+                "2026-09-10",
+                11.0
+              ],
+              [
+                "2026-09-11",
+                11.0
+              ],
+              [
+                "2026-09-12",
+                11.0
+              ],
+              [
+                "2026-09-13",
+                11.0
+              ],
+              [
+                "2026-09-14",
+                11.0
+              ],
+              [
+                "2026-09-15",
+                11.17
+              ],
+              [
+                "2026-09-16",
+                11.17
+              ],
+              [
+                "2026-09-17",
+                11.17
+              ],
+              [
+                "2026-09-18",
+                11.17
+              ],
+              [
+                "2026-09-19",
+                11.17
+              ],
+              [
+                "2026-09-20",
+                11.17
+              ],
+              [
+                "2026-09-21",
+                11.17
+              ],
+              [
+                "2026-09-22",
+                11.17
+              ],
+              [
+                "2026-09-23",
+                11.17
+              ],
+              [
+                "2026-09-24",
+                11.17
+              ],
+              [
+                "2026-09-25",
+                11.17
+              ],
+              [
+                "2026-09-26",
+                11.17
+              ],
+              [
+                "2026-09-27",
+                11.17
+              ],
+              [
+                "2026-09-28",
+                11.17
+              ],
+              [
+                "2026-09-29",
+                11.17
+              ],
+              [
+                "2026-09-30",
+                11.17
+              ],
+              [
+                "2026-10-01",
+                11.17
+              ],
+              [
+                "2026-10-02",
+                11.17
+              ],
+              [
+                "2026-10-03",
+                11.17
+              ],
+              [
+                "2026-10-04",
+                11.17
+              ],
+              [
+                "2026-10-05",
+                11.17
+              ],
+              [
+                "2026-10-06",
+                11.17
+              ],
+              [
+                "2026-10-07",
+                11.17
+              ],
+              [
+                "2026-10-08",
+                11.17
+              ],
+              [
+                "2026-10-09",
+                11.17
+              ],
+              [
+                "2026-10-10",
+                11.17
+              ],
+              [
+                "2026-10-11",
+                11.17
+              ],
+              [
+                "2026-10-12",
+                11.17
+              ],
+              [
+                "2026-10-13",
+                11.17
+              ],
+              [
+                "2026-10-14",
+                11.17
+              ],
+              [
+                "2026-10-15",
+                11.17
+              ],
+              [
+                "2026-10-16",
+                11.17
+              ],
+              [
+                "2026-10-17",
+                11.17
+              ],
+              [
+                "2026-10-18",
+                11.17
+              ],
+              [
+                "2026-10-19",
+                11.17
+              ],
+              [
+                "2026-10-20",
+                29.06
+              ],
+              [
+                "2026-10-21",
+                29.06
+              ],
+              [
+                "2026-10-22",
+                29.06
+              ],
+              [
+                "2026-10-23",
+                29.06
+              ],
+              [
+                "2026-10-24",
+                29.06
+              ],
+              [
+                "2026-10-25",
+                29.06
+              ],
+              [
+                "2026-10-26",
+                29.06
+              ],
+              [
+                "2026-10-27",
+                29.06
+              ],
+              [
+                "2026-10-28",
+                29.06
+              ],
+              [
+                "2026-10-29",
+                29.06
+              ],
+              [
+                "2026-10-30",
+                29.06
+              ],
+              [
+                "2026-10-31",
+                29.06
+              ],
+              [
+                "2026-11-01",
+                29.06
+              ],
+              [
+                "2026-11-02",
+                29.06
+              ],
+              [
+                "2026-11-03",
+                29.06
+              ],
+              [
+                "2026-11-04",
+                29.06
+              ],
+              [
+                "2026-11-05",
+                29.06
+              ],
+              [
+                "2026-11-06",
+                29.06
+              ],
+              [
+                "2026-11-07",
+                36.0
+              ],
+              [
+                "2026-11-08",
+                47.0
+              ],
+              [
+                "2026-11-09",
+                69.5
+              ],
+              [
+                "2026-11-10",
+                69.5
+              ]
+            ]
+          }
+        ],
+        "leitura": {
+          "pt": "Anúncios ativos do concorrente nos EUA por data de início. Com lançamentos no mesmo ritmo todo dia, as barras seguiriam a linha; o índice de dispersão é 40, quando seria perto de 1.",
+          "en": "The competitor's active US ads by start date. With launches at the same pace every day the counts would follow the line; the dispersion index is 40, where it would be close to 1.",
+          "es": "Anuncios activos del competidor en EE. UU. por fecha de inicio. Con lanzamientos al mismo ritmo cada día, los conteos seguirían la línea; el índice de dispersión es 40, cuando sería cercano a 1."
+        }
+      }
+    ]
   }
 }

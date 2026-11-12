@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from anuncios_concorrente import analise, dados, graficos
+from anuncios_concorrente import analise, dados, graficos, site
 
 SAIDA = Path("reports")
 FIGURAS = SAIDA / "figuras"
@@ -153,7 +153,10 @@ def main() -> None:
         "resumo_dos_atributos": resumo_atributos,
         "relancamento_eua": relancamento,
         "categorias_de_gancho": _json(ganchos),
-        "para_o_site": bloco_para_o_site(coleta, resumo, duracao, resumo_atributos),
+        "para_o_site": {
+            **bloco_para_o_site(coleta, resumo, duracao, resumo_atributos),
+            "graficos_extras": site.graficos_extras(simulacao, curva, duracao, atributos, por_data, lotes.loc["US"]),
+        },
     }
 
     def padrao(valor):
